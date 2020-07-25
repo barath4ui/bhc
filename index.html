@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="alternate icon" class="js-site-favicon" type="image/png" href="images/bhc.png">
+    <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="images/bhc.svg">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+     <link rel="stylesheet" href="css/icons.css" />
+    <link rel="stylesheet" href="css/style.css" />
+   
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap" rel="stylesheet">
+
+    <title>BHC</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-theme fixed-top">
+      <a class="navbar-brand" href="#"><span class="icon-boat logo"></span> BHC</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto ">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Eprs <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quotes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Import Eprs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Import Quotes</a>
+          </li>
+        </ul>
+        <div class="form-inline my-2 my-lg-0">
+          <a class="navbar-settings" href="#"><span class="icon-settings"></span> </a>
+          <a class="navbar-userprofile" href="#"> <span>A</span></a>
+        </div>
+      </div>
+    </nav>
+
+    <header class="d-flex flex-column flex-md-row align-items-md-center p-3 bg-theme-5">
+      <div class="h-details mr-auto">
+        <div class="h-icon epr-icon">
+          <span class="icon-supermarket"></span>
+        </div>
+        <div class="h-detail epr-number">
+          <span class="h-label">EPR Number</span>
+          <p>EPR122019 -018015451-0</p>
+        </div>
+        <div class="h-detail epr-customer">
+          <span class="h-label">Customer Name</span>
+          <p>Cimco Werkzekzeugfabrik Carl</p>
+        </div>
+      </div>
+      <div class="h-buttons">
+        <button type="button" class="btn btn-outline-primary"><span class="icon-share"></span>Approval</button>
+        <button type="button" class="btn btn-outline-primary"><span class="icon-add"></span>Product</button>
+        <button type="button" class="btn btn-outline-primary"><span class="icon-edit"></span>Settings</button>
+      </div>
+    
+    </header>
+
+    <main role="main" class="container-fluid">
+      <ul class="nav nav-tabs navtheme" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="summary-tab" data-toggle="tab" href="#summary" role="tab" aria-controls="summary" aria-selected="true">Summary</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="customer-tab" data-toggle="tab" href="#customer" role="tab" aria-controls="customer" aria-selected="false">Customer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="revisions-tab" data-toggle="tab" href="#revisions" role="tab" aria-controls="revisions" aria-selected="false">Revisions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="documents-tab" data-toggle="tab" href="#documents" role="tab" aria-controls="documents" aria-selected="false">Documents</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="history-tab" data-toggle="tab" href="#history" role="tab" aria-controls="history" aria-selected="false">History</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="summary" role="tabpanel" aria-labelledby="summary-tab">
+          <div class="tab-inner">
+            <div class="tab-panel panel-01">
+              <div class="panel-head">
+                <a class="btn panel-btn" data-toggle="collapse" href="#properties" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  <h4>Properties</h4>
+                  <span class="icon-down-arrow"></span>
+                </a>
+              </div>
+              <div class="collapse panel-content show" id="properties">
+                <div class="card card-body p-0">
+                  <div class="table-wrap">
+                    <table class="table properties-table">
+                      <tbody>
+                        <tr>
+                          <td><div class="col">Status</div></td>
+                          <td><div class="col">Preparing</div></td>
+                          <td><div class="col">Country</div></td>
+                          <td><div class="col">US</div></td>
+                          <td><div class="col">End Customer Name</div></td>
+                          <td>
+                            <div class="col">
+                              <span class="textwrap">"Cimco"Werkzeugfabeew est</span>
+                              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="'Cimco'Werkzeugfabeew est">
+                                <span class="ic-table icon-info"></span>
+                              </span>
+                            </div>
+                          </td>
+                          <td><div class="col">EPR Owner</div></td>
+                          <td><div class="col">jkrishnan.ext</div></td>
+                        </tr>
+                        <tr>
+                          <td><div class="col">Date Created</div></td>
+                          <td><div class="col">12/17/2019</div></td>
+                          <td><div class="col">Price List</div></td>
+                          <td><div class="col">US-USD</div></td>
+                          <td><div class="col">Opportunity ID</div></td>
+                          <td><div class="col">OPT-69968</div></td>
+                          <td><div class="col">Opportunity Owner</div></td>
+                          <td><div class="col">Gokul Prasath</div></td>
+                        </tr>
+                        <tr>
+                          <td><div class="col">Date Created</div></td>
+                          <td><div class="col">12/17/2019 11:15:01 AM</div></td>
+                          <td><div class="col">EPR Area</div></td>
+                          <td><div class="col">Regional</div></td>
+                          <td><div class="col">No.of Deliveries</div></td>
+                          <td><div class="col">1</div></td>
+                          <td><div class="col">EPR Creator</div></td>
+                          <td>
+                            <div class="col">
+                              <span class="textwrap">Jeganeedhi Krishanan</span>
+                              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Jeganeedhi Krishanan">
+                                <span class="ic-table icon-info"></span>
+                              </span>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><div class="col">EPR Valid From</div></td>
+                          <td><div class="col">12/17/2019  <span class="ic-table icon-calendar"></span></div></td>
+                          <td><div class="col">EPR Type</div></td>
+                          <td><div class="col">None</div></td>
+                          <td><div class="col">First Month of Revenue</div></td>
+                          <td><div class="col">01/30/2019</div></td>
+                          <td><div class="col">EPR Final Approver</div></td>
+                          <td><div class="col">Santhosh</div></td>
+                        </tr>
+                        <tr>
+                          <td><div class="col">EPR Valid To</div></td>
+                          <td><div class="col">06/17/2020  <span class="ic-table icon-calendar"></span></div></td>
+                          <td><div class="col">Revision</div></td>
+                          <td><div class="col">0</div></td>
+                          <td><div class="col">EPR Revision Name</div></td>
+                          <td>
+                            <div class="col">
+                              <span class="textwrap">EPT 122019-0180154436</span>
+                              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="EPT 122019-0180154436">
+                                <span class="ic-table icon-info"></span>
+                              </span>
+                            </div>
+                          </td>
+                          <td><div class="col">Sort Order</div></td>
+                          <td>
+                            <div class="col">
+                              <div class="dropdown">
+                                <button class="btn btn-link dropdown-toggle btn-dd" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  <span>Products+Region+Mar</span>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-panel panel-02">
+              <div class="panel-head">
+                <a class="btn panel-btn" data-toggle="collapse" href="#products" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  <h4>Products</h4>
+                  <span class="icon-down-arrow"></span>
+                </a>
+              </div>
+              <div class="collapse panel-content show" id="products">
+                <div class="card card-body p-0">
+                  <div class="table-wrap">
+                  <table class="table table-bordered products-tables">
+                    <thead>
+                      <tr>
+                        <th scope="col"></th>
+                        <th scope="col">No</th>
+                        <th scope="col">Itmes</th>
+                        <th scope="col">Main Country</th>
+                        <th scope="col">Main Currency</th>
+                        <th scope="col">Governed Countries</th>
+                        <th scope="col">EPR Type</th>
+                        <th scope="col" class="numtxt">Main Country MSRP</th>
+                        <th scope="col" class="numtxt">Std Dist. Discount %</th>
+                        <th scope="col" class="numtxt">Min Price Allowed</th>
+                        <th scope="col" class="numtxt">Std Dist. Pricing</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col" class="numtxt">PTR Rebate %</th>
+                        <th scope="col" class="numtxt">Unit Price Out of jabra before Additional Rebates</th>
+                        <th scope="col" class="numtxt">Previous Revision Approved Out of Jabra</th>
+                        <th scope="col">Net Unit Price Out of Jabra</th>
+                        <th scope="col">Margin Health</th>
+                        <th scope="col">Auto Convert OOJ Prices</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td >
+                          <div class="check-options">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            </div>
+                            <div class="dropdown">
+                              <button class="dropdown-toggle new-toggle-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="icon-menu"></span>
+                              </button>
+                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                       <td>
+                         <div class="table-txt">1</div>
+                       </td>
+                       <td>
+                        <div class="table-txt m-w-270">
+                          <div>IZ-PC-B6-4K-WM-B</div>
+                          <div>
+                            <span class="textwrap">Panacast2 Camera w. Wallstreet</span>
+                              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Panacast2 Camera w. Wallstreet">
+                                <span class="ic-table icon-info"></span>
+                              </span>
+                          </div>
+                        </div>
+                       </td>
+                       <td>
+                        <div class="table-txt">US</div>
+                      </td>
+                      <td>
+                        <div class="table-txt">USD</div>
+                      </td>
+                      <td>
+                        <div class="table-txt"></div>
+                      </td>
+                      <td>
+                        <div class="table-txt">None</div>
+                      </td>
+                      <td>
+                        <div class="table-txt numtxt">795.00</div>
+                      </td>
+                      <td>
+                        <div class="table-txt numtxt">10.00</div>
+                      </td>
+                      <td>
+                        <div class="table-txt numtxt">715.00</div>
+                      </td>
+                      <td>
+                        <div class="table-txt numtxt">715.00</div>
+                      </td>
+                      <td>
+                        <div class="table-txt">
+                          <input class="form-control form-control-lg" type="text" placeholder="1" value="1">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="table-txt numtxt">5.00</div>
+                      </td>
+                      <td>
+                        <div class="table-txt numtxt">47.50</div>
+                      </td>
+                      <td>
+                        <div class="table-txt numtxt">0.00</div>
+                      </td>
+                      <td>
+                        <div class="table-txt m-w-90">
+                          <input class="form-control form-control-lg" type="text" placeholder="300.00" value="300.00">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="table-txt text-center">
+                          <span class="icon-alert"></span>
+                        </div>
+                      </td>
+
+
+                       <td >
+                        <div class="check-options">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          </div>
+                        </div>
+                      </td>
+                      </tr>
+                      
+                      <tr>
+                        <td >
+                          <div class="check-options">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            </div>
+                            <div class="dropdown">
+                              <button class="dropdown-toggle new-toggle-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="icon-menu"></span>
+                              </button>
+                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="table-txt">2</div>
+                        </td>
+                        <td>
+                          <div class="table-txt m-w-270">
+                            <div>PC-B604K-TS-B</div>
+                            <div>
+                              <span class="textwrap">Spareparts CCO LCII 30-35</span>
+                                <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Panacast2 Camera w. Wallstreet">
+                                  <span class="ic-table icon-info"></span>
+                                </span>
+                            </div>
+                          </div>
+                         </td>
+                         <td>
+                          <div class="table-txt">US</div>
+                        </td>
+                        <td>
+                          <div class="table-txt">USD</div>
+                        </td>
+                        <td>
+                          <div class="table-txt"></div>
+                        </td>
+                        <td>
+                          <div class="table-txt">None</div>
+                        </td>
+                        <td>
+                          <div class="table-txt numtxt">50.00</div>
+                        </td>
+                        <td>
+                          <div class="table-txt numtxt">10.00</div>
+                        </td>
+                        <td>
+                          <div class="table-txt numtxt">45.00</div>
+                        </td>
+                        <td>
+                          <div class="table-txt numtxt">45.00</div>
+                        </td>
+                        <td>
+                          <div class="table-txt">
+                            <div class="table-txt">
+                              <input class="form-control form-control-lg" type="text" placeholder="1" value="1">
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="table-txt numtxt">5.00</div>
+                        </td>
+                        <td>
+                          <div class="table-txt numtxt">47.50</div>
+                        </td>
+                        <td>
+                          <div class="table-txt numtxt">0.00</div>
+                        </td>
+                        <td>
+                          <div class="table-txt m-w-90">
+                            <input class="form-control form-control-lg" type="text" placeholder="300.00" value="300.00">
+                          </div>
+                        </td>
+                        <td>
+                          <div class="table-txt text-center">
+                            <span class="icon-tick"></span>
+                          </div>
+                        </td>
+                         <td >
+                          <div class="check-options">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            </div>
+                          </div>
+                        </td>
+
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-panel panel-03">
+              <div class="panel-head">
+                <a class="btn panel-btn" data-toggle="collapse" href="#comments" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  <h4>Comments</h4>
+                  <span class="icon-down-arrow"></span>
+                </a>
+              </div>
+              <div class="collapse panel-content show" id="comments">
+                <div class="card card-body p-0">
+                  <div class="d-flex align-items-stretch comments-wrap">
+                    <div class="comments">
+                      <div class="comment-title">
+                        <span class="icon-comments"></span>
+                        Customer 
+                      </div>
+                    </div>
+                    <div class="comments">
+                      <div class="commentbox">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                    </div>
+                    <div class="comments">
+                      <div class="comment-title">
+                        <span class="icon-comments"></span>
+                        Internal 
+                      </div>
+                    </div>
+                    <div class="comments">
+                      <div class="commentbox">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="tab-pane fade" id="customer" role="tabpanel" aria-labelledby="customer-tab">
+          <div class="empty-tab-content">
+            <h1>Customer Details Content ...</h1>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="revisions" role="tabpanel" aria-labelledby="revisions-tab">
+          <div class="empty-tab-content">
+            <h1>Revisions Details Content ...</h1>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="documents" role="tabpanel" aria-labelledby="documents-tab">
+          <div class="empty-tab-content">
+            <h1>Documents Details Content ...</h1>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="history" role="tabpanel" aria-labelledby="history-tab">
+          <div class="empty-tab-content">
+            <h1>History Details Content ...</h1>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.slim.min.js" ></script>
+    <script src="js/popper.min.js" ></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
